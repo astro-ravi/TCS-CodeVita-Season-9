@@ -1,0 +1,21 @@
+def ch(n):
+    c=0
+    while(n):
+        c=c+1
+        n>>=1
+    print(c)
+for i in range(int(input())):
+    n=int(input())
+    ch(n)
+    
+    
+    INPUT 
+    2
+    10
+    5
+    
+    
+    
+    OUTPUT
+    4
+    3
